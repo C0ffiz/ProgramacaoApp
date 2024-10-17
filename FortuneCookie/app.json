@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "FortuneCookie",
+    "slug": "FortuneCookie",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "", 
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "",
+      "resizeMode": "contain",
+      "backgroundColor": "#EEEEA3"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yourname.fortunecookie", 
+      "infoPlist": {
+        "UIStatusBarHidden": true, 
+        "UIStatusBarStyle": "UIStatusBarStyleLightContent" 
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "", 
+        "backgroundColor": "#EEEEA3" 
+      },
+      "statusBar": {
+        "visible": false,
+        "backgroundColor": "#EEEEA3"
+      },
+      "package": "com.yourname.fortunecookie" 
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "" 
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
